@@ -1,2 +1,2 @@
-KOSS 2023-2학기 Algorithm Study
-------------
+# KOSS-2023-2-AlgorithmStudy
+KOSS-2023-2-AlgorithmStudy
