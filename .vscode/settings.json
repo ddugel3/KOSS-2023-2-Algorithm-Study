@@ -62,7 +62,8 @@
     "xtr1common": "cpp",
     "xutility": "cpp",
     "1874.C": "cpp",
-    "17413.C": "cpp"
+    "17413.C": "cpp",
+    "m17413.C": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
