@@ -1,0 +1,87 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//       {
+//           "name": "C/C++ Runner: Debug Session",
+//           "type": "cppdbg",
+//           "request": "launch",
+//           "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//           "args": [],
+//           "stopAtEntry": false,
+//           "externalConsole": true,
+//           "cwd": "${workspaceFolder}",
+//           "MIMode": "gdb",
+//           "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+//           "setupCommands": [
+//               {
+//                   "description": "Enable pretty-printing for gdb",
+//                   "text": "-enable-pretty-printing",
+//                   "ignoreFailures": true
+//               }
+//           ]
+//       },
+//       {
+//           "name": "C/C++: gcc.exe build and debug active file",
+//           "type": "cppdbg",
+//           "request": "launch",
+//           "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//           "args": [],
+//           "stopAtEntry": false,
+//           "cwd": "C:\\MinGW\\bin",
+//           "environment": [],
+//           "externalConsole": false,
+//           "MIMode": "gdb",
+//           "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+//           "setupCommands": [
+//               {
+//                   "description": "Enable pretty-printing for gdb",
+//                   "text": "-enable-pretty-printing",
+//                   "ignoreFailures": true
+//               },
+//               {
+//                   "description": "Set Disassembly Flavor to Intel",
+//                   "text": "-gdb-set disassembly-flavor intel",
+//                   "ignoreFailures": true
+//               }
+//           ],
+//           "preLaunchTask": "C/C++: gcc.exe 활성 파일 빌드"
+//       }
+//   ]
+// }
+
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "preLaunchTask": "C/C++: gcc.exe 활성 파일 빌드"
+        },
+        {
+            "name": "win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "preLaunchTask": "C/C++: gcc.exe 활성 파일 빌드"
+        }
+    ],
+    "version": 4
+}
