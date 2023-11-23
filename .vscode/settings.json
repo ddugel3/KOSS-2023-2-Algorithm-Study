@@ -63,7 +63,13 @@
     "xutility": "cpp",
     "1874.C": "cpp",
     "17413.C": "cpp",
-    "m17413.C": "cpp"
+    "m17413.C": "cpp",
+    "9093.C": "cpp",
+    "10870.C": "cpp",
+    "10872.C": "cpp",
+    "25501.C": "cpp",
+    "1914.C": "cpp",
+    "17478.C": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
